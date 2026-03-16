@@ -57,6 +57,6 @@ pub enum Kind {
 
 /// The consumer of the library is free to map their concrete types
 /// (e.g. 'f32', or 'String') to any Id they see fit - or they
-/// can use the tyr::TypeMapper for convenience.
+/// can use the typiskt::TypeMapper for convenience.
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct TypeId(pub usize);
