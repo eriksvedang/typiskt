@@ -1,7 +1,12 @@
 [package]
-name = "tyr"
+name = "typiskt"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Type systems as a library."
+readme = "README.md"
+repository = "https://github.com/eriksvedang/typiskt"
+categories = ["compilers", "development-tools"]
 
 [dependencies]
 env_logger = "0.11.5"
